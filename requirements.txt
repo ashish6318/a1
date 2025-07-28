@@ -1,0 +1,7 @@
+# Optimized dependencies for multilingual PDF processing
+PyMuPDF>=1.24.0          # Fast PDF parsing - ~50MB
+scikit-learn>=1.3.0      # ML classification (TfidfVectorizer, KMeans, StandardScaler) - ~30MB
+numpy>=1.24.0            # Numerical computations (statistics) - ~25MB
+
+# Total: ~105MB (well under 200MB limit)
+# Removed: pandas, joblib, lightgbm (unused dependencies)
